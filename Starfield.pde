@@ -22,8 +22,8 @@ void mousePressed()
 {
    background(100,20,20);
    for(int i = 0;i<dave.length;i++){
-   dave[i].myX = 300;
-   dave[i].myY = 300;
+   dave[i].myX = mouseX;
+   dave[i].myY = mouseY;
 }
 }
 class StarField{
